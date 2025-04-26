@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MCC - Drag and Drop Cart</title>
+  <link rel="stylesheet" href="addtocartpage.css" />
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">
+      <a href="#"><img src="image/mcc-logo.png" alt="MCC Logo" /></a>
+      <h2 class="mcc"><a href="#">MCC</a></h2>
+    </div>
+
+    <ul class="links">
+      <li><a href="mcc-homepage.html">HOME</a></li>
+      <li><a href="aboutpage.html">ABOUT</a></li>
+      <li><a href="coursespage.html">COURSES</a></li>
+      <li><a href="resourcespage.html">RESOURCES</a></li>
+      <li><a href="https://shonmaemae.carrd.co/">CONTACT</a></li>
+    </ul>
+    
+    <div class="buttons">
+      <a href="#"><img src="image/user-pfp.jpg" alt="USER" /></a>
+      <a href="mcc-homepage.html">
+        <button type="button">LOGOUT</button>
+      </a>
+    </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>౨ Packages ৎ</h1>
+    <div class="products">
+      <div class="product" draggable="true" data-name="Level 1 Worksheet" data-price="4.99">
+        Level 1 Worksheet - $4.99
+      </div>
+      <div class="product" draggable="true" data-name="Level 2 Worksheet" data-price="9.99">
+        Level 2 Worksheet - $9.99
+      </div>
+      <div class="product" draggable="true" data-name="Level 1 Class Bundle" data-price="39.99">
+        Level 1 Yearly Class Bundle - $39.99
+      </div>
+      <div class="product" draggable="true" data-name="Level 2 Class Bundle" data-price="79.99">
+        Level 2 Yearly Class Bundle - $79.99
+      </div>
+      <div class="product" draggable="true" data-name="Private Tutor" data-price="59.99">
+        Private Tutor - $59.99
+      </div>
+    </div>
+
+    <div id="cart" class="cart-drop-zone">
+      <h2>- Receipt -</h2>
+    </div>
+
+    <div class="totals">
+      <p>SUBTOTAL: <span id="subtotal">0.00</span> USD</p>
+      <p>SALES TAX: <span id="tax">0.00</span> USD</p>
+      <p><strong>TOTAL: <span id="total">0.00</span> USD</strong></p>
+
+      <button id="checkout-btn" class="checkout-btn">CHECKOUT</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 Mari Chingu Center. All rights reserved.</p>
+  </footer>
+  <script src="addtocartpage.js"></script>
+</body>
+</html>

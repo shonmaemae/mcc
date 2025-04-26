@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MCC Login</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <div class="logo">
+            <a href="#"><img src="image/mcc-logo.png" alt="MCC Logo"></a>
+            <h2 class="mcc"><a href="#">MCC</a></h2>
+        </div>
+
+        <ul class="links">
+            <li><a href="mcc-homepage.html">HOME</a></li>
+            <li><a href="aboutpage.html">ABOUT</a></li>
+            <li><a href="coursespage.html">COURSES</a></li>
+            <li><a href="resourcespage.html">RESOURCES</a></li>
+            <li><a href="https://shxnmaemae.carrd.co/">CONTACT</a></li>
+
+            <div class="animation"></div>
+        </ul>
+
+        <div class="buttons">
+            <a href="registerpage.html">
+                <button type="button">REGISTER</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+  
+        <div class="welcome-section">
+          <h1>Welcome Back!</h1>
+          <p>Kindly Log In to Your Account</p>
+          <img src="image/group-logo.png" alt="Cute Mascots">
+        </div>
+      
+        <div class="login-box">
+            <form id="loginForm">
+                <label for="email">Email</label>
+                <p class="space"></p>
+                <input type="email" id="email" placeholder="firstname.surname@mcc.com.ph" required>
+              
+                <p class="verified"></p>
+              
+                <label for="password">Password</label>
+                <p class="space"></p>
+                <input type="password" id="password" name="password" required>            
+              
+                <p class="space"></p>
+                <button type="submit" id="loginBtn" style="display: block; margin: 20px auto;">Log in</button>
+              
+                <p class="no-account">
+                  <a href="registerpage.html" target="_blank" style="text-decoration: none; color: inherit;">
+                    <u><i>Don’t have an account?</i></u>
+                  </a>
+                </p>
+              </form>              
+        </div>
+      
+      </div>
+      
+
+    <footer class="footer">
+        <p>© 2025 Mari Chingu Center. All rights reserved.</p>
+    </footer>
+
+    <script src="loginpage.js"></script>
+</body>
+</html>
