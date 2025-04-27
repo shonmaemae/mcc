@@ -173,7 +173,7 @@ body
         width: 100%;
     }
     
-#registerBtn
+#registerBtn 
     {
         align-items: center;
         padding: 10px 25px;
@@ -186,14 +186,14 @@ body
         cursor: pointer;
         transition: background-color 0.3s ease;
         border: 1px solid #000000;
-    
+        display: block;
+        margin: 20px auto;
     }
     
 #registerBtn:hover 
     {
         background-color: #d7d6d6;
     }
-    
 .have-account
     {
         text-align: center;
